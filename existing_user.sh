@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
 ################################################################################
+#                                                                              #
+# Updated by SabiasQueSpace -> https://sabiasque.space/                        #
+#                                                                              #                                                                                                         #
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox #
-# Updated by Dirty Harry for YiiMP use...                                      #
-# This script is intended to be ran from the Yiimp Server Installer            #
+# Forked from DirtyHarryDev/Yiimp-Server-Installer                             #
+# This script is intended to be ran from the Yiimp Server Installer            # 
+#                                                                              #
 ################################################################################
 
 source /etc/functions.sh

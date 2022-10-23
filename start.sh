@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
 ################################################################################
+#                                                                              #
+# Updated by SabiasQueSpace -> https://sabiasque.space/                        #
+#                                                                              #                                                                                                                  #
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox #
-# Updated by Dirty Harry for YiiMP use...                                      #
-# This script is intended to be ran from the Yiimp Server Installer            #
+# Forked from DirtyHarryDev/Yiimp-Server-Installer                             #
+# This script is intended to be ran from the Yiimp Server Installer            # 
+#                                                                              #
 ################################################################################
 
 # Recall the last settings used if we're running this a second time.
@@ -58,8 +62,8 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
   # Are we running as root?
   if [[ $EUID -ne 0 ]]; then
     # Welcome
-    message_box "Dirty Harry Yiimp Server Setup Installer v1.0" \
-    "Hello and thanks for using the Dirty Harry Yiimp Setup Installer!
+    message_box "SabiasQueSpace Yiimp Server Setup Installer v1.0" \
+    "Hello and thanks for using the SabiasQueSpace Yiimp Setup Installer!
     \n\nInstallation for the most part is fully automated. In most cases any user responses that are needed are asked prior to the installation.
     \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
   	source existing_user.sh
@@ -98,7 +102,7 @@ clear
 	echo
 	echo "-----------------------------------------------"
 	echo
-	echo Thank you for using the Dirty Harry Yiimp Server Installer!
+	echo Thank you for using the SabiasQueSpace Yiimp Server Installer!
 	echo
 	echo To run this installer anytime simply type, yiimpserver!
 	echo

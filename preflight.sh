@@ -1,7 +1,11 @@
 ################################################################################
+#                                                                              #
+# Updated by SabiasQueSpace -> https://sabiasque.space/                        #
+#                                                                              #                                                                                                                  #
 # Source https://mailinabox.email/ https://github.com/mail-in-a-box/mailinabox #
-# Updated by Dirty Harry for YiiMP use...                                      #
-# This script is intended to be ran from the Yiimp Server Installer            #
+# Forked from DirtyHarryDev/Yiimp-Server-Installer                             #
+# This script is intended to be ran from the Yiimp Server Installer            # 
+#                                                                              #
 ################################################################################
 
 if [ "`lsb_release -d | sed 's/.*:\s*//' | sed 's/18\.04\.[0-9]/18.04/' `" == "Ubuntu 18.04 LTS" ]; then
@@ -65,7 +69,7 @@ fi
 ARCHITECTURE=$(uname -m)
 if [ "$ARCHITECTURE" != "x86_64" ]; then
   if [ -z "$ARM" ]; then
-    echo "Dirty Harry YiiMP Seerver Installer v1.0 only supports x86_64 and will not work on any other architecture, like ARM or 32 bit OS."
+    echo "SabiasQueSpace YiiMP Seerver Installer v1.0 only supports x86_64 and will not work on any other architecture, like ARM or 32 bit OS."
     echo "Your architecture is $ARCHITECTURE"
     exit
   fi
